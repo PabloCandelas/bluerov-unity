@@ -1,0 +1,37 @@
+Hola profesor, 
+
+Aqui esta el repositorio donde estan todos los codigos de la asignatura: 
+https://github.com/PabloCandelas/bluerov-unity
+
+Para el simulation server especificamente es:
+https://github.com/PabloCandelas/bluerov-unity/tree/main/unity-simulator
+
+En la simualcion agregué una fuerza de flotacion artifcial con un techo de la altura de la alberca, igualmente para correrlo se ocupan para el tcp y teleop los siguientes comandos en la terminal:
+ros2 launch ros_tcp_endpoint endpoint.launch.py 
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/bluerov1/cmd_vel
+(como recomendación llevar las velocidades en el teleop hasta "currently:	speed 2.30	turn 717.95" para que sea más sencillo de visualizar)
+
+
+Para el laboratorio de mostrar las imagenes del ROV:
+https://github.com/PabloCandelas/bluerov-unity/tree/main/unity-uilab
+
+**Cabe aclarar que para evitar reprogramar los archivos la version que se encuentra esta configurada para el bluerov directamente, al final del archivo se encuentra un link a un drive con bags que se pueden utilizar
+
+La UI de foxgolve utilizada en el proyecto (la parte 2d) se encuentra en:
+https://github.com/PabloCandelas/bluerov-unity/tree/main/foxglove-ui-project
+
+La UI 3d en unity utilizada en el proyecto Gods Favour que es de mi equipo la subira en su cuenta de aula virutal
+
+**Los bags para reproducir y corroborar las UI se encuentra en el siguiente drive:
+https://drive.google.com/file/d/1lczb4AdisJqVGdeGZvzVWuR2FhYstRN0/view?usp=drive_link
+https://drive.google.com/file/d/1Vc66f6EsiGGVclPeeaClsIMqOuk8M4Dv/view?usp=drive_link
+
+
+ANEXOS EXTRAS PROYECTO FINAL:
+presentacion final en pdf:
+
+Quedo al pendiente de cualquier cosa necesaria que pueda suceder
+
+
+Saludos,
+Pablo Candelas
