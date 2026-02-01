@@ -28,7 +28,11 @@ https://drive.google.com/file/d/1Vc66f6EsiGGVclPeeaClsIMqOuk8M4Dv/view?usp=drive
 
 
 ANEXOS EXTRAS PROYECTO FINAL:
-presentacion final en pdf:
+- Repositorio del proyecto completo: https://github.com/PabloCandelas/bbox 
+- Presentacion final en pdf: https://github.com/PabloCandelas/bluerov-unity/blob/main/equipo2_proyecto_final-2.pdf
+- Presentation final en canva (para ver videos y animaciones): https://www.canva.com/design/DAG2667aHew/ZPCLwSwSPIiggTeHQy7FoA/edit?utm_content=DAG2667aHew&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+- Reporte 1: https://github.com/PabloCandelas/bluerov-unity/blob/main/Bbox_recovery_final_team2-2.pdf
+- Reporte 2: https://github.com/PabloCandelas/bluerov-unity/blob/main/Coginitve_process_final-1.pdf
 
 Quedo al pendiente de cualquier cosa necesaria que pueda suceder
 
