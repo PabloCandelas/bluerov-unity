@@ -1,0 +1,515 @@
+{
+  "configById": {
+    "Gauge!52grtv": {
+      "path": "/bluerov2/rc/override.channels[0]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "gradient",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": true,
+      "reverseDirection": false
+    },
+    "Indicator!1esiq8w": {
+      "path": "/bluerov2/rc/override.channels[0]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a1a1a1",
+      "fallbackLabel": "False",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "1500",
+          "color": "#bbc3da",
+          "label": "NO PITCH"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#9bcb7",
+          "label": "Pitch N"
+        },
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#7a52a2",
+          "label": "Pitch P"
+        }
+      ]
+    },
+    "Gauge!2v9dgf7": {
+      "path": "/bluerov2/rc/override.channels[1]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "gradient",
+      "gradient": [
+        "#00ff46ff",
+        "#ffed00ff"
+      ],
+      "reverse": true,
+      "reverseDirection": false
+    },
+    "Indicator!8qt78t": {
+      "path": "/bluerov2/rc/override.channels[1]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "NO ROLL",
+      "rules": [
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#68e24a",
+          "label": "Roll F"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#b9b663",
+          "label": "Roll B"
+        }
+      ]
+    },
+    "Gauge!42n6o94": {
+      "path": "/bluerov2/rc/override.channels[2]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": false,
+      "reverseDirection": false
+    },
+    "Indicator!2zy9vuu": {
+      "path": "/bluerov2/rc/override.channels[2]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "NO HEAVE",
+      "rules": [
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#68e24a",
+          "label": "Heavy +"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#d89a6f",
+          "label": "Heave -"
+        }
+      ]
+    },
+    "Gauge!3cfhzl6": {
+      "path": "/bluerov2/rc/override.channels[3]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": false,
+      "reverseDirection": false
+    },
+    "Indicator!1tryx3x": {
+      "path": "/bluerov2/rc/override.channels[3]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "NO YAW",
+      "rules": [
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#68e24a",
+          "label": "Yaw R"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#b1296f",
+          "label": "Yaw L"
+        }
+      ]
+    },
+    "Gauge!ke9dzq": {
+      "path": "/bluerov2/rc/override.channels[4]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": false,
+      "reverseDirection": false
+    },
+    "Indicator!124drh8": {
+      "path": "/bluerov2/rc/override.channels[4]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "NO SURGE",
+      "rules": [
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#68e24a",
+          "label": "Surge F"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#84299c",
+          "label": "Surge B"
+        }
+      ]
+    },
+    "Gauge!40t1mqc": {
+      "path": "/bluerov2/rc/override.channels[5]",
+      "minValue": 1100,
+      "maxValue": 1900,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": false,
+      "reverseDirection": false
+    },
+    "Indicator!l1f7na": {
+      "path": "/bluerov2/rc/override.channels[5]",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "NO SWAY",
+      "rules": [
+        {
+          "operator": ">",
+          "rawValue": "1500",
+          "color": "#68e24a",
+          "label": "Sway R"
+        },
+        {
+          "operator": "<",
+          "rawValue": "1500",
+          "color": "#d39040",
+          "label": "Sway L"
+        }
+      ]
+    },
+    "Plot!31jquzi": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/bluerov2/global_position/rel_alt.data",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "488b9958-8168-48f7-95ce-631ceab9e69e",
+          "showLine": false
+        }
+      ],
+      "minYValue": -5,
+      "maxYValue": 0,
+      "showXAxisLabels": false,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "timeWindowMode": "sliding",
+      "playbackBarPosition": "center",
+      "followingViewWidth": 60
+    },
+    "RawMessages!3wm74le": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/bluerov2/global_position/rel_alt.data",
+      "fontSize": 72
+    },
+    "RawMessages!4cdeydg": {
+      "diffEnabled": false,
+      "diffMethod": "previous message",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/mission/log",
+      "fontSize": 12
+    },
+    "Indicator!3rh4znv": {
+      "path": "/bluerov2/buttons/B.data",
+      "style": "background",
+      "fontSize": 36,
+      "fallbackColor": "#0a46c9",
+      "fallbackLabel": "read logs",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "true",
+          "color": "#68e24a",
+          "label": "Accepted"
+        }
+      ]
+    },
+    "Indicator!t7ill8": {
+      "path": "/bluerov2/buttons/A.data",
+      "style": "background",
+      "fontSize": 36,
+      "fallbackColor": "#800505",
+      "fallbackLabel": "Engage OFF",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "true",
+          "color": "#378224",
+          "label": "Engaging!!"
+        }
+      ]
+    },
+    "RawMessages!2cben76": {
+      "diffEnabled": false,
+      "diffMethod": "custom",
+      "diffTopicPath": "",
+      "showFullMessageForDiff": false,
+      "topicPath": "/bluerov2/battery/smart_percentage.data",
+      "fontSize": 48
+    },
+    "Gauge!1iqty8": {
+      "path": "/bluerov2/battery.voltage",
+      "minValue": 14.2,
+      "maxValue": 16.5,
+      "colorMap": "rainbow",
+      "colorMode": "gradient",
+      "gradient": [
+        "#ff4a00ff",
+        "#65ff00ff"
+      ],
+      "reverse": false,
+      "reverseDirection": false,
+      "foxglovePanelTitle": "POWER IN USE"
+    },
+    "Indicator!ok1rn7": {
+      "path": "/bluerov2/state.armed",
+      "style": "bulb",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "DISARMED",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "true",
+          "color": "#4bcde3",
+          "label": "ARMED"
+        }
+      ]
+    },
+    "Indicator!2mcl31u": {
+      "path": "/bluerov2/lights/percentage.data",
+      "style": "background",
+      "fontSize": 36,
+      "fallbackColor": "#a0a0a0",
+      "fallbackLabel": "OFF",
+      "rules": [
+        {
+          "operator": "=",
+          "rawValue": "0.0",
+          "color": "#e9e9e2",
+          "label": "LIGHTS OFF"
+        },
+        {
+          "operator": ">=",
+          "rawValue": "100.0",
+          "color": "#e8cc41",
+          "label": "LIGHTS 100%"
+        },
+        {
+          "operator": ">=",
+          "rawValue": "80",
+          "color": "#b5ab21",
+          "label": "LIGHTS 80%"
+        },
+        {
+          "operator": ">=",
+          "rawValue": "60.0",
+          "color": "#efdf74",
+          "label": "LIGHTS 60%"
+        },
+        {
+          "operator": ">=",
+          "rawValue": "40.0",
+          "color": "#e8e3a5",
+          "label": "LIGHTS 40%"
+        },
+        {
+          "operator": ">=",
+          "rawValue": "20.0",
+          "color": "#e6e2b0",
+          "label": "LIGHTS 20%"
+        }
+      ]
+    },
+    "Image!3sybu71": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": ""
+      }
+    }
+  },
+  "globalVariables": {
+    "globalVariable": 4
+  },
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "direction": "row",
+    "first": {
+      "first": {
+        "first": {
+          "first": "Gauge!52grtv",
+          "second": "Indicator!1esiq8w",
+          "direction": "column"
+        },
+        "second": {
+          "first": {
+            "first": "Gauge!2v9dgf7",
+            "second": "Indicator!8qt78t",
+            "direction": "column"
+          },
+          "second": {
+            "first": "Gauge!42n6o94",
+            "second": "Indicator!2zy9vuu",
+            "direction": "column"
+          },
+          "direction": "row"
+        },
+        "direction": "row",
+        "splitPercentage": 32.97362110311751
+      },
+      "second": {
+        "first": {
+          "first": {
+            "first": {
+              "first": "Gauge!3cfhzl6",
+              "second": "Indicator!1tryx3x",
+              "direction": "column",
+              "splitPercentage": 49.771902969122785
+            },
+            "second": {
+              "first": "Gauge!ke9dzq",
+              "second": "Indicator!124drh8",
+              "direction": "column"
+            },
+            "direction": "row",
+            "splitPercentage": 49.20290346652195
+          },
+          "second": {
+            "first": "Gauge!40t1mqc",
+            "second": "Indicator!l1f7na",
+            "direction": "column"
+          },
+          "direction": "row",
+          "splitPercentage": 66.78679336334248
+        },
+        "second": {
+          "first": {
+            "first": "Plot!31jquzi",
+            "second": "RawMessages!3wm74le",
+            "direction": "row"
+          },
+          "second": "RawMessages!4cdeydg",
+          "direction": "column"
+        },
+        "direction": "column",
+        "splitPercentage": 31.354377835698426
+      },
+      "direction": "column",
+      "splitPercentage": 23.61834129644156
+    },
+    "second": {
+      "first": {
+        "first": {
+          "first": "Indicator!3rh4znv",
+          "second": "Indicator!t7ill8",
+          "direction": "row"
+        },
+        "second": {
+          "first": {
+            "first": "RawMessages!2cben76",
+            "second": "Gauge!1iqty8",
+            "direction": "column",
+            "splitPercentage": 56.201550387596896
+          },
+          "second": {
+            "first": "Indicator!ok1rn7",
+            "second": "Indicator!2mcl31u",
+            "direction": "column",
+            "splitPercentage": 55.81395348837209
+          },
+          "direction": "row",
+          "splitPercentage": 45.51724137931033
+        },
+        "direction": "row",
+        "splitPercentage": 48.433368818116676
+      },
+      "second": "Image!3sybu71",
+      "direction": "column",
+      "splitPercentage": 29.437352920202525
+    },
+    "splitPercentage": 44.9244060475162
+  }
+}
